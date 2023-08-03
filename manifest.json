@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "custom.js" ],
+      "matches": [ "https://www.chess.com/*" ]
+   } ],
+   "description": "A gemmier way of playing chess.",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnab0PtNWQ3aJB5vncGB2U96bcU3bVUyGbWq6U892S6OjQl+cc/EMDuNvYpKE7JXvU1SCh7KxeTy68BPYaY3bztM7XnbAn9wgdP1UrPfLK7iwOYE7pG0Hu+XmB7y2PFATd3i/uRNPfZojzMkHVJTZ3+hvOhWN8Qs1bb5buh5ccUKi0UJlrRy0/N5EP3chJZbpSl7z6qNSzeQ8EXPCgmEQF9fSTV/G2HCcFrKhszRrLhl+hWV5TmjbcV0bF0dUQuD6vUPcX4XduAXxdRgdKmXfWvLn8K233didGPX2uHvkywyCISWThpLGh0dicCZABeU3CzsEtu140b60GfBLiCTN6wIDAQAB",
+   "manifest_version": 3,
+   "name": "'Sharty Chess",
+   "update_url": "https://soyjak.party",
+   "version": "2.0"
+}
